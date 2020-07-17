@@ -2,6 +2,7 @@ public class EmpWageBuilderUC10 {
 	
 	private static final int IS_PART_TIME = 1;
 	private static final int IS_FULL_TIME = 2;
+
 	//private static final int EMP_RATE_PER_HRS = 20;
 	//private static final int NUM_OF_WORKING_DAYS = 20;
 	//private static final int MAX_HRS_IN_MONTH = 100;
@@ -112,6 +113,10 @@ class Company {
 	public int getMaxHrsInMonth(){
 		return maxHrsInMonth;
 	}
+   
+    public string tostring()
+{
+   return "Total Emp Wage for Company "+ name +" is:"+totalEmpWage;
 }
 	
 }	
